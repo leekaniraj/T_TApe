@@ -44,12 +44,12 @@
         ulong viewAngle = 0x25ac - 0x14; //m_ammoPoolCapacity=0x25ac
         ulong weaponPunch = 0x24b0; //m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle=0x24b0
         ulong breathAngles = 0x0;
-        ulong team = 0x044c; //m_iTeamNum=0x044c
-        ulong localOrigin = 0x0054; //m_localOrigin=0x0054
-        ulong vecAbsOrigin = 0x014c; //m_vecAbsOrigin=0x014c
+        ulong team = 0x0a74; //m_iTeamNum=0x044c
+        ulong localOrigin = 0x0004; //m_localOrigin=0x0054
+        ulong vecAbsOrigin = 0x0004; //m_vecAbsOrigin=0x014c
         ulong vecAbsVelocity = 0x0140; //[RecvTable.DT_BaseEntity] m_vecAbsVelocity
-        ulong bones = 0x0e98 + 0x48; //m_nForceBone=0x0e98 m_bConstrainBetweenEndpoints=0x0f50
-        ulong studioHdr = 0x0f50; //CBaseAnimating!m_pStudioHdr=0x0f50
+        ulong bones = 0x0f50 + 0x48; //m_nForceBone=0x0e98 m_bConstrainBetweenEndpoints=0x0f50
+        ulong studioHdr = 0x10f0; //CBaseAnimating!m_pStudioHdr=0x0f50
         ulong cameraPosition = 0x1f48; //[Miscellaneous] CPlayer!camera_origin=0x1f48
         ulong cameraAngles = 0x1f54; //[Miscellaneous] CPlayer!camera_angles=0x1f54
         ulong name = 0x0589; //[RecvTable.DT_BaseEntity] m_iName
@@ -72,7 +72,7 @@
      
         ulong projectileSpeed = 0x1f18; //CWeaponX!m_flProjectileSpeed=0x1f18
         ulong projectileScale = 0x1f20; //CWeaponX!m_flProjectileScale=0x1f20
-        ulong ammoInClip = 0x1670;
+        ulong ammoInClip = 0x1644;
         //[RecvTable.DT_PropSurvival] m_customScriptInt=0x1648
      
         /*
