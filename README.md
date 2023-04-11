@@ -59,7 +59,7 @@ sudo make install
 
 ## 5. Clone repo
 ```bash
-git clone https://github.com/Braziliana/T_TApe.git
+git clone https://github.com/leekaniraj/T_TApe.git
 ```
 ```bash
 cd T_TApe
